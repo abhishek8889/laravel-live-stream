@@ -1,5 +1,6 @@
 @extends('front_layout.master')
 @section('content')
+test 
 <div class="container border card " style="margin-top:100px;">
 @if(isset(auth()->user()->name))
     <div style="padding:50px;">
